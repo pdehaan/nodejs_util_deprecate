@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_util_deprecate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "start:ignore": "node --no-deprecation index",
+    "start:trace": "node --trace-deprecation index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/nodejs_util_deprecate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdehaan/nodejs_util_deprecate/issues"
+  },
+  "homepage": "https://github.com/pdehaan/nodejs_util_deprecate#readme",
+  "dependencies": {
+    "@sindresorhus/slugify": "^1.1.2"
+  }
+}
